@@ -21,7 +21,7 @@ public class AnggotaEntity {
 	private String kelas;
 	
 	@Column(name="total_bayar")
-	private String total_bayar;
+	private int total_bayar;
 
 	public int getId() {
 		return id;
@@ -47,11 +47,11 @@ public class AnggotaEntity {
 		this.kelas = kelas;
 	}
 
-	public String getTotal_bayar() {
+	public int getTotal_bayar() {
 		return total_bayar;
 	}
 
-	public void setTotal_bayar(String total_bayar) {
+	public void setTotal_bayar(int total_bayar) {
 		this.total_bayar = total_bayar;
 	}
 }
